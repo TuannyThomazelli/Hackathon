@@ -245,3 +245,64 @@ a:focus-visible {
   font-size: clamp(29px, 4vw, 42px);
   line-height: 1.15;
 }
+.boas-vindas p:not(.etiqueta) {
+  max-width: 490px;
+  color: #53665a;
+  line-height: 1.8;
+  margin-bottom: 23px;
+}
+
+.boas-vindas-ilustracao {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #cce5ce;
+  font-size: 72px;
+}
+
+.link-botao {
+  text-decoration: none;
+}
+
+.materias-section {
+  padding-top: 54px;
+  scroll-margin-top: 20px;
+}
+
+.materias-section h2,
+.topicos-section h2 {
+  margin: 0 0 8px;
+  font-size: 27px;
+}
+
+.texto-suave {
+  margin: 0;
+}
+
+.materias-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 27px;
+}
+
+.materia-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 245px;
+  padding: 24px;
+  border: 1px solid #e5ebe5;
+  border-radius: 17px;
+  background: #ffffff;
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.materia-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px #263e2d12;
+}
