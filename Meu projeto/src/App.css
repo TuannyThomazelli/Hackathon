@@ -152,3 +152,96 @@ a:focus-visible {
   min-height: 100vh;
   background: #f7f9f6;
 }
+
+.topbar {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px max(5%, calc((100% - 1120px) / 2));
+  background: #ffffff;
+  border-bottom: 1px solid #e9eee9;
+}
+
+.logo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  padding: 0;
+  color: #25352d;
+  background: transparent;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.mini-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.usuario-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #285e40;
+  background: #e0efe3;
+  font-weight: 800;
+}
+
+.nome-usuario {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.botao-sair {
+  padding: 9px 13px;
+  border: 1px solid #dce5dc;
+  border-radius: 9px;
+  color: #46584c;
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.botao-sair:hover {
+  background: #f0f5f0;
+}
+
+.conteudo {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+  padding: 38px 0 60px;
+}
+
+.boas-vindas {
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 38px 46px;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #e5f1e5;
+}
+
+.boas-vindas h1 {
+  margin: 0 0 12px;
+  font-size: clamp(29px, 4vw, 42px);
+  line-height: 1.15;
+}
