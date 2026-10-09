@@ -452,3 +452,36 @@ a:focus-visible {
   text-align: left;
   font-weight: 800;
 }
+.topico-card:hover,
+.topico-ativo {
+  border-color: #76a987;
+  background: #f0f7f0;
+}
+
+.numero-topico {
+  color: #47805c;
+  font-size: 12px;
+}
+
+.seta {
+  margin-left: auto;
+  color: #47805c;
+}
+
+.atividade-box {
+  margin-top: 24px;
+  padding: 25px;
+  border: 1px solid #dce8dc;
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.atividade-box h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.atividade-box p:not(.etiqueta) {
+  color: #647268;
+  line-height: 1.8;
+}
