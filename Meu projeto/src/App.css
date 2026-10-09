@@ -514,3 +514,42 @@ a:focus-visible {
     padding: 18px;
   }
 }
+@media (max-width: 520px) {
+  .login-card {
+    padding: 27px 22px;
+  }
+
+  .boas-vindas {
+    padding: 25px 22px;
+  }
+
+  .boas-vindas-ilustracao {
+    display: none;
+  }
+
+  .materias-grid,
+  .topicos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .materias-section h2,
+  .topicos-section h2 {
+    font-size: 23px;
+  }
+
+  .materia-banner {
+    padding: 25px;
+  }
+
+  .materia-banner h1 {
+    font-size: 31px;
+  }
+
+  .nome-usuario {
+    display: none;
+  }
+
+  .objetivo-box {
+    padding: 20px;
+  }
+}
