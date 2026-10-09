@@ -485,3 +485,32 @@ a:focus-visible {
   color: #647268;
   line-height: 1.8;
 }
+
+@media (max-width: 760px) {
+  .topbar {
+    padding: 13px 5%;
+  }
+
+  .conteudo {
+    width: 90%;
+    padding-top: 24px;
+  }
+
+  .boas-vindas {
+    padding: 28px;
+  }
+
+  .boas-vindas-ilustracao {
+    width: 95px;
+    height: 95px;
+    font-size: 45px;
+  }
+
+  .materias-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .materia-card {
+    padding: 18px;
+  }
+}
