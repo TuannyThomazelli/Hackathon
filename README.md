@@ -123,67 +123,97 @@ Os requisitos não funcionais definem os critérios de qualidade e funcionamento
 
 
 
-## User Stories
-### US01 — Tela Inicial
-Como visitante da plataforma, quero visualizar uma página inicial clara sobre o projeto de reforço escolar e o ODS 4, para entender rapidamente o propósito social da aplicação e acessar as opções de entrada.
 
-Critérios de Aceitação: A página exibe o banner, a descrição do ODS 4 e botões visíveis de login/navegação.
+# 📚 User Stories — Aprende+
 
-### US02 — Login Simulado
-Como usuário da plataforma, quero selecionar meu perfil de acesso ("Estudante" ou "Tutor") através de uma tela de login simulada, para navegar diretamente pelo painel adequado ao meu papel sem precisar preencher cadastros complexos.
+## 🎯 Objetivo
 
-Critérios de Aceitação:
-O sistema possui botões de escolha de perfil que redirecionam corretamente para a respectiva interface (Dashboard do aluno ou do tutor).
+As User Stories descrevem as funcionalidades do Aprende+ a partir da perspectiva dos usuários, apresentando o que eles desejam realizar e qual benefício esperam obter.
 
-### US03 — Catálogo e Filtros de Aulas
-Como estudante buscando apoio, quero visualizar a lista de aulas disponíveis e filtrá-las por disciplina, para encontrar facilmente o reforço escolar que preciso.
+## 👤 User Stories
 
-Critérios de Aceitação:
-O sistema exibe os cards de aulas e o filtro altera a listagem em tempo real com base na matéria selecionada.
+### US01 — Acessar a plataforma
+**Como** usuário cadastrado,  
+**quero** fazer login na plataforma,  
+**para** acessar os recursos educacionais disponíveis.
 
-### US04 — Detalhes da Aula
-Como estudante interessado em uma matéria, quero clicar em uma aula do catálogo e ver suas informações detalhadas, para saber exatamente o conteúdo abordado, horário e qual tutor ministrará.
+**Critério de aceitação:**
+- O sistema deve disponibilizar campos para e-mail e senha.
+- O usuário deve conseguir acessar a plataforma utilizando suas credenciais.
 
-Critérios de Aceitação:
-Ao selecionar um card de aula, o sistema abre uma tela ou modal com a descrição completa, horário e dados do tutor.
+### US02 — Visualizar a página inicial
+**Como** estudante,  
+**quero** visualizar a página inicial do Aprende+,  
+**para** conhecer a plataforma e encontrar suas principais funcionalidades.
 
-### US05 — Inscrição em Aula
-Como estudante, quero clicar em um botão para me inscrever na aula escolhida e receber um aviso visual, para ter certeza de que minha vaga foi garantida.
+**Critério de aceitação:**
+- A página inicial deve apresentar informações sobre a plataforma.
+- As principais funcionalidades devem estar acessíveis pela navegação.
 
-Critérios de Aceitação:
-Ao clicar em "Inscrever-se", uma mensagem de sucesso (feedback visual) é exibida na tela.
+### US03 — Visualizar as disciplinas
+**Como** estudante,  
+**quero** visualizar as disciplinas disponíveis,  
+**para** escolher a matéria que desejo estudar.
 
-### US06 — Painel do Estudante
-Como estudante logado, quero acessar um painel (Dashboard) com minhas próximas aulas agendadas e atalhos, para acompanhar minha rotina de estudos de forma organizada.
+**Critério de aceitação:**
+- O sistema deve apresentar as disciplinas disponíveis.
+- Cada disciplina deve ser identificada de forma clara.
 
-Critérios de Aceitação:
-A tela exibe um resumo das aulas do aluno e links rápidos para navegar pelo sistema.
+### US04 — Acessar conteúdos educacionais
+**Como** estudante,  
+**quero** acessar os conteúdos de uma disciplina,  
+**para** aprender e revisar os assuntos estudados.
 
-### US07 — Painel e Cadastro de Aula do Tutor
-Como tutor voluntário, quero visualizar minhas ofertas de aulas e usar um formulário simples para simular o cadastro de um novo horário, para disponibilizar apoio pedagógico aos alunos.
+**Critério de aceitação:**
+- O sistema deve permitir o acesso aos conteúdos da disciplina selecionada.
+- Os materiais devem ser apresentados de maneira organizada.
 
-Critérios de Aceitação:
-O tutor consegue ver suas aulas e preencher um formulário estático que adiciona dinamicamente uma nova aula à lista.
+### US05 — Navegar entre disciplinas
+**Como** estudante,  
+**quero** navegar entre as diferentes disciplinas,  
+**para** estudar matérias diferentes conforme minha necessidade.
 
-### US08 — Sala de Aula Virtual
-Como usuário conectado a uma aula, quero acessar uma interface simulada de videochamada com chat e bloco de anotações, para vivenciar a experiência de uma aula de reforço online.
+**Critério de aceitação:**
+- O usuário deve conseguir selecionar outra disciplina.
+- A navegação deve permitir o acesso aos conteúdos correspondentes.
 
-Critérios de Aceitação:
-A tela apresenta uma área simulada de vídeo, um campo de chat/anotação e botões de controle básicos.
 
-### US09 — Tela de Conquistas e Progresso
-Como estudante, quero visualizar uma tela com minhas medalhas e progresso nas matérias, para me manter motivado e engajado nos estudos.
+### US06 — Retornar às páginas anteriores
+**Como** estudante,  
+**quero** retornar às áreas anteriores da plataforma,  
+**para** continuar minha navegação sem precisar recomeçar o percurso.
 
-Critérios de Aceitação:
-A tela exibe distintivos ou barras de progresso simuladas para recompensar a jornada de aprendizado.
+**Critério de aceitação:**
+- O sistema deve permitir o retorno à página inicial ou à lista de disciplinas.
+- A navegação deve funcionar de maneira clara e intuitiva.
 
-### US10 — Central de Ajuda
-Como usuário da plataforma,quero acessar uma seção de perguntas frequentes (FAQ) e suporte, para tirar dúvidas sobre como utilizar o site e participar do projeto.
+### US07 — Encontrar recursos educacionais
+**Como** estudante,  
+**quero** visualizar os recursos educacionais de forma organizada,  
+**para** encontrar os materiais necessários para meus estudos com facilidade.
 
-Critérios de Aceitação:
-A tela lista perguntas comuns com respostas expansíveis ou estáticas e canais de contato de suporte comunitário.
+**Critério de aceitação:**
+- Os recursos devem estar organizados por disciplina ou categoria.
+- Os materiais devem ser apresentados de maneira fácil de localizar.
 
 ## Funcionalidades
+# 📚 Funcionalidades do Sistema — Aprende+
+
+## 1. Página inicial
+Apresenta a plataforma Aprende+, suas principais informações e opções de navegação, facilitando o acesso às funcionalidades disponíveis.
+
+## 2. Visualização das disciplinas
+Disponibiliza uma área com as disciplinas oferecidas pela plataforma, permitindo que o estudante escolha a matéria que deseja estudar.
+
+## 3. Acesso aos conteúdos educacionais
+Permite que os estudantes acessem materiais de estudo relacionados às disciplinas disponíveis, auxiliando na aprendizagem e na revisão dos conteúdos escolares.
+
+## 4. Navegação entre disciplinas
+Possibilita a troca entre diferentes disciplinas, permitindo que o estudante explore os materiais de cada matéria de acordo com suas necessidades.
+
+## 5. Retorno à navegação
+Permite que o estudante retorne a áreas anteriores, como a página inicial ou a lista de disciplinas, facilitando a movimentação dentro da plataforma.
+
 
 ## Tecnologias Utilizadas
 
