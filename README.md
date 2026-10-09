@@ -231,11 +231,11 @@ npm run dev
 [Visualizar Aplicação]([https://seu-link-do-prototipo.com](https://hackathon-j7690zvo9-tuannythomazelli-3003s-projects.vercel.app/))
 
 ## Registro de Utilização de IA
-Código do React
-Prototipação
-Cards
-Pesquisas adicionais
-Requisitos Funcionais
+Código do React|
+Prototipação|
+Cards|
+Pesquisas adicionais|
+Requisitos Funcionais|
 
 ## Integrantes
 Cauã Felipe Carvalho, Lívia Ghirardi do Amaral, Tuanny Thomazelli
