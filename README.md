@@ -89,21 +89,20 @@ Cruzando os aprendizados dessas cinco referências, o *Aprendê +* posiciona-se 
 
 ---
 
-⚙️ Requisitos Funcionais
+## ⚙️ Requisitos Funcionais
 
-Os requisitos funcionais descrevem as funcionalidades que o sistema deve oferecer aos usuários.
-
-Código	Requisito	Descrição
-RF01	Login	O sistema deve permitir que usuários cadastrados acessem a plataforma por meio de suas credenciais.
-RF02	Página inicial	O sistema deve apresentar uma página inicial com informações sobre a plataforma e atalhos para suas funcionalidades.
-RF03	Visualização das disciplinas	O sistema deve disponibilizar uma área com as disciplinas oferecidas para estudo.
-RF04	Acesso aos conteúdos	O sistema deve permitir que o estudante acesse conteúdos educacionais de cada disciplina.
-RF05	Navegação entre disciplinas	O sistema deve permitir que o usuário selecione uma disciplina e navegue pelos conteúdos correspondentes.
-RF06	Perfil do usuário	O sistema deve permitir que o usuário visualize suas informações básicas de cadastro.
-RF07	Encerramento da sessão	O sistema deve permitir que o usuário saia da conta de forma segura.
-RF08	Retorno à navegação	O sistema deve permitir que o estudante retorne às áreas anteriores, como a página inicial e a lista de disciplinas.
-RF09	Acesso aos recursos educacionais	O sistema deve disponibilizar os recursos de aprendizagem de maneira organizada, facilitando a localização dos materiais pelos estudantes.
-RF10	Botão de voltar	O sistema deve disponibilizar um botão para que o usuário retorne à página anterior.
+| Código | Requisito | Descrição |
+|---|---|---|
+| RF01 | Login | O sistema deve permitir que usuários cadastrados acessem a plataforma por meio de suas credenciais. |
+| RF02 | Página inicial | O sistema deve apresentar uma página inicial com informações sobre a plataforma e atalhos para suas funcionalidades. |
+| RF03 | Visualização das disciplinas | O sistema deve disponibilizar uma área com as disciplinas oferecidas para estudo. |
+| RF04 | Acesso aos conteúdos | O sistema deve permitir que o estudante acesse conteúdos educacionais de cada disciplina. |
+| RF05 | Navegação entre disciplinas | O sistema deve permitir que o usuário selecione uma disciplina e navegue pelos conteúdos correspondentes. |
+| RF06 | Perfil do usuário | O sistema deve permitir que o usuário visualize suas informações básicas de cadastro. |
+| RF07 | Encerramento da sessão | O sistema deve permitir que o usuário saia da conta de forma segura. |
+| RF08 | Retorno à navegação | O sistema deve permitir que o estudante retorne às áreas anteriores, como a página inicial e a lista de disciplinas. |
+| RF09 | Acesso aos recursos educacionais | O sistema deve disponibilizar os recursos de aprendizagem de maneira organizada, facilitando a localização dos materiais de estudo. |
+| RF10 | Botão de voltar | O sistema deve disponibilizar um botão para que o usuário retorne à página anterior. |
 
 ### Requisitos não-funcionais
 - RNF01 — Responsividade Básica: A interface da aplicação deve utilizar um framework de estilos utilitários (como Tailwind CSS ou Flexbox/Grid nativo) para garantir boa visualização e usabilidade em telas de computadores e dispositivos móveis.
