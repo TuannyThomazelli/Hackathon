@@ -104,7 +104,16 @@ Cruzando os aprendizados dessas cinco referências, o *Aprendê +* posiciona-se 
 | RF09 | Acesso aos recursos educacionais | O sistema deve disponibilizar os recursos de aprendizagem de maneira organizada, facilitando a localização dos materiais de estudo. |
 | RF10 | Botão de voltar | O sistema deve disponibilizar um botão para que o usuário retorne à página anterior. |
 
-### Requisitos não-funcionais
+# 📋 Requisitos Não Funcionais — Aprende+
+
+Os requisitos não funcionais definem os critérios de qualidade e funcionamento da plataforma Aprende+.
+
+| Código | Requisito | Descrição |
+|---|---|---|
+| RNF01 | Usabilidade | A interface deve ser simples e intuitiva, permitindo que os estudantes utilizem as funcionalidades com facilidade. |
+| RNF02 | Responsividade | A plataforma deve adaptar sua interface a computadores, tablets e celulares. |
+| RNF03 | Acessibilidade | A interface deve utilizar textos legíveis, contraste adequado e elementos de navegação acessíveis. |
+| RNF04 | Desempenho | As páginas e os conteúdos devem carregar em tempo adequado, evitando esperas desnecessárias. |
 - RNF01 — Responsividade Básica: A interface da aplicação deve utilizar um framework de estilos utilitários (como Tailwind CSS ou Flexbox/Grid nativo) para garantir boa visualização e usabilidade em telas de computadores e dispositivos móveis.
 
 - RNF02 — Escolha de Framework Front-end: A aplicação deve ser desenvolvida obrigatoriamente utilizando um framework moderno de mercado de livre escolha da equipe (como React, Vue, Next.js ou Angular).
