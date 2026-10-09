@@ -215,19 +215,19 @@ Possibilita a troca entre diferentes disciplinas, permitindo que o estudante exp
 Permite que o estudante retorne a áreas anteriores, como a página inicial ou a lista de disciplinas, facilitando a movimentação dentro da plataforma.
 
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 
 Vercel | React | Typescript | Stitch | Gemini| ChatGPT
 
-## Framework Utilizado
+## Framework Utilizado 
 
-## Como Executar
-npm intall
-npm run dev
+## Como Executar 
+- npm intall
+- npm run dev
 
-## Protótipo
+## Protótipo 
 [Visualizar protótipo](https://seu-link-do-prototipo.com)
 
-## Aplicação
+## Aplicação 
 [Visualizar Aplicação]([https://seu-link-do-prototipo.com](https://hackathon-j7690zvo9-tuannythomazelli-3003s-projects.vercel.app/))
 
 ## Registro de Utilização de IA
