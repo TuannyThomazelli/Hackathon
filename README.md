@@ -219,6 +219,7 @@ Permite que o estudante retorne a áreas anteriores, como a página inicial ou a
 Vercel | React | Typescript | Stitch | Gemini| ChatGPT
 
 ## Framework Utilizado 
+- React
 
 ## Como Executar 
 - npm intall
