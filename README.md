@@ -225,7 +225,7 @@ Vercel | React | Typescript | Stitch | Gemini| ChatGPT
 - npm run dev
 
 ## Protótipo 
-[Visualizar protótipo](https://seu-link-do-prototipo.com)
+[Visualizar protótipo]([https://seu-link-do-prototipo.com](https://stitch.google.com/projects/8837065371333945349))
 
 ## Aplicação 
 [Visualizar Aplicação]([https://seu-link-do-prototipo.com](https://hackathon-j7690zvo9-tuannythomazelli-3003s-projects.vercel.app/))
