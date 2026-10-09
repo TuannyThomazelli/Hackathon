@@ -121,25 +121,7 @@ Os requisitos não funcionais definem os critérios de qualidade e funcionamento
 | RNF09 | Escalabilidade | A estrutura deve permitir a inclusão futura de novas disciplinas, conteúdos e funcionalidades sem exigir a reconstrução completa da plataforma. |
 | RNF10 | Organização dos conteúdos | Os conteúdos educacionais devem ser apresentados de maneira organizada, facilitando a leitura e a navegação dos estudantes. |
 
-- RNF01 — Responsividade Básica: A interface da aplicação deve utilizar um framework de estilos utilitários (como Tailwind CSS ou Flexbox/Grid nativo) para garantir boa visualização e usabilidade em telas de computadores e dispositivos móveis.
 
-- RNF02 — Escolha de Framework Front-end: A aplicação deve ser desenvolvida obrigatoriamente utilizando um framework moderno de mercado de livre escolha da equipe (como React, Vue, Next.js ou Angular).
-
-- RNF03 — Componentização do Código: O código-fonte da aplicação deve ser organizado de forma modular, dividindo elementos repetitivos em componentes reutilizáveis (ex: Navbar, Footer, Cards de Aula).
-
-- RNF04 — Navegação por Rotas (SPA): A aplicação deve implementar uma navegação fluida entre as páginas do protótipo (10 telas) sem necessidade de recarregamento completo da página (Single Page Application).
-
-- RNF05 — Feedback Visual de Ações: O sistema deve fornecer retornos visuais claros e imediatos para o usuário (como mensagens de confirmação ou alertas na tela) ao interagir com botões e formulários.
-
-- RNF06 — Versionamento de Código (Git): O projeto deve ser versionado utilizando o Git, mantendo um histórico claro de commits significativos ao longo do desenvolvimento.
-
-- RNF07 — Deploy Público Acessível: A aplicação final deve ser publicada e estar acessível pela internet por meio de uma plataforma de hospedagem estática gratuita (como Vercel, Netlify ou GitHub Pages).
-
-- RNF08 — Idioma e Padrão de Texto: Todos os textos de interface, botões, títulos e mensagens do sistema devem estar redigidos em português do Brasil (pt-BR).
-
-- RNF09 — Leveza e Desempenho Estático: Como o projeto não utilizará banco de dados complexos ou chamadas pesadas de backend, o tempo de carregamento inicial das páginas deve ser instantâneo.
-
-- RNF10 — Documentação Completa (README): O repositório do projeto deve conter um arquivo README.md estruturado com todas as informações do desafio, ODS, protótipo, requisitos e dados dos integrantes.
 
 ## User Stories
 ### US01 — Tela Inicial
