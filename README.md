@@ -216,16 +216,26 @@ Permite que o estudante retorne a áreas anteriores, como a página inicial ou a
 
 
 ## Tecnologias Utilizadas
+Vercel | React | Typescript | Stitch | Gemini| ChatGPT
 
 ## Framework Utilizado
 
 ## Como Executar
+npm intall
+npm run dev
 
 ## Protótipo
+[Visualizar protótipo](https://seu-link-do-prototipo.com)
 
 ## Aplicação
+[Visualizar Aplicação]([https://seu-link-do-prototipo.com](https://hackathon-j7690zvo9-tuannythomazelli-3003s-projects.vercel.app/))
 
-## Processo de Desenvolvimento
+## Registro de Utilização de IA
+Código do React
+Prototipação
+Cards
+Pesquisas adicionais
+Requisitos Funcionais
 
 ## Integrantes
 Cauã Felipe Carvalho, Lívia Ghirardi do Amaral, Tuanny Thomazelli
