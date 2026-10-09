@@ -364,3 +364,91 @@ a:focus-visible {
   border-radius: 17px;
   background: #ffffff;
 }
+.objetivo-box > span {
+  font-size: 32px;
+}
+
+.objetivo-box h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.objetivo-box p {
+  margin: 0;
+  color: #748078;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.rodape {
+  padding: 28px 18px;
+  border-top: 1px solid #e5ebe5;
+  background: #ffffff;
+  text-align: center;
+}
+
+.rodape strong {
+  color: #387753;
+}
+
+.rodape p {
+  margin-bottom: 0;
+  color: #748078;
+  font-size: 12px;
+}
+
+.botao-voltar {
+  margin-bottom: 24px;
+  padding: 10px 0;
+  border: 0;
+  color: #387753;
+  background: transparent;
+  font-weight: 800;
+}
+
+.materia-banner {
+  padding: 36px;
+  border-radius: 22px;
+}
+
+.materia-emoji.grande {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.materia-banner h1 {
+  margin: 0 0 12px;
+  font-size: 38px;
+}
+
+.materia-banner > p:last-child {
+  max-width: 580px;
+  margin-bottom: 0;
+  color: #53665a;
+  line-height: 1.8;
+}
+
+.topicos-section {
+  padding-top: 38px;
+}
+
+.topicos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 13px;
+  margin-top: 24px;
+}
+
+.topico-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 78px;
+  padding: 17px;
+  border: 1px solid #e2e9e2;
+  border-radius: 13px;
+  background: #ffffff;
+  text-align: left;
+  font-weight: 800;
+}
