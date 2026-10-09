@@ -50,6 +50,64 @@ A plataforma têm como público-alvo estudantes do Ensino básico brasileiro com
 - RNF10 — Documentação Completa (README): O repositório do projeto deve conter um arquivo README.md estruturado com todas as informações do desafio, ODS, protótipo, requisitos e dados dos integrantes.
 
 ## User Stories
+### US01 — Tela Inicial
+Como visitante da plataforma, quero visualizar uma página inicial clara sobre o projeto de reforço escolar e o ODS 4, para entender rapidamente o propósito social da aplicação e acessar as opções de entrada.
+
+Critérios de Aceitação: A página exibe o banner, a descrição do ODS 4 e botões visíveis de login/navegação.
+
+### US02 — Login Simulado
+Como usuário da plataforma, quero selecionar meu perfil de acesso ("Estudante" ou "Tutor") através de uma tela de login simulada, para navegar diretamente pelo painel adequado ao meu papel sem precisar preencher cadastros complexos.
+
+Critérios de Aceitação:
+O sistema possui botões de escolha de perfil que redirecionam corretamente para a respectiva interface (Dashboard do aluno ou do tutor).
+
+### US03 — Catálogo e Filtros de Aulas
+Como estudante buscando apoio, quero visualizar a lista de aulas disponíveis e filtrá-las por disciplina, para encontrar facilmente o reforço escolar que preciso.
+
+Critérios de Aceitação:
+O sistema exibe os cards de aulas e o filtro altera a listagem em tempo real com base na matéria selecionada.
+
+### US04 — Detalhes da Aula
+Como estudante interessado em uma matéria, quero clicar em uma aula do catálogo e ver suas informações detalhadas, para saber exatamente o conteúdo abordado, horário e qual tutor ministrará.
+
+Critérios de Aceitação:
+Ao selecionar um card de aula, o sistema abre uma tela ou modal com a descrição completa, horário e dados do tutor.
+
+### US05 — Inscrição em Aula
+Como estudante, quero clicar em um botão para me inscrever na aula escolhida e receber um aviso visual, para ter certeza de que minha vaga foi garantida.
+
+Critérios de Aceitação:
+Ao clicar em "Inscrever-se", uma mensagem de sucesso (feedback visual) é exibida na tela.
+
+### US06 — Painel do Estudante
+Como estudante logado, quero acessar um painel (Dashboard) com minhas próximas aulas agendadas e atalhos, para acompanhar minha rotina de estudos de forma organizada.
+
+Critérios de Aceitação:
+A tela exibe um resumo das aulas do aluno e links rápidos para navegar pelo sistema.
+
+### US07 — Painel e Cadastro de Aula do Tutor
+Como tutor voluntário, quero visualizar minhas ofertas de aulas e usar um formulário simples para simular o cadastro de um novo horário, para disponibilizar apoio pedagógico aos alunos.
+
+Critérios de Aceitação:
+O tutor consegue ver suas aulas e preencher um formulário estático que adiciona dinamicamente uma nova aula à lista.
+
+### US08 — Sala de Aula Virtual
+Como usuário conectado a uma aula, quero acessar uma interface simulada de videochamada com chat e bloco de anotações, para vivenciar a experiência de uma aula de reforço online.
+
+Critérios de Aceitação:
+A tela apresenta uma área simulada de vídeo, um campo de chat/anotação e botões de controle básicos.
+
+### US09 — Tela de Conquistas e Progresso
+Como estudante, quero visualizar uma tela com minhas medalhas e progresso nas matérias, para me manter motivado e engajado nos estudos.
+
+Critérios de Aceitação:
+A tela exibe distintivos ou barras de progresso simuladas para recompensar a jornada de aprendizado.
+
+### US10 — Central de Ajuda
+Como usuário da plataforma,quero acessar uma seção de perguntas frequentes (FAQ) e suporte, para tirar dúvidas sobre como utilizar o site e participar do projeto.
+
+Critérios de Aceitação:
+A tela lista perguntas comuns com respostas expansíveis ou estáticas e canais de contato de suporte comunitário.
 
 ## Funcionalidades
 
