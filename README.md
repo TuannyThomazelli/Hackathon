@@ -114,6 +114,13 @@ Os requisitos não funcionais definem os critérios de qualidade e funcionamento
 | RNF02 | Responsividade | A plataforma deve adaptar sua interface a computadores, tablets e celulares. |
 | RNF03 | Acessibilidade | A interface deve utilizar textos legíveis, contraste adequado e elementos de navegação acessíveis. |
 | RNF04 | Desempenho | As páginas e os conteúdos devem carregar em tempo adequado, evitando esperas desnecessárias. |
+| RNF05 | Compatibilidade | A plataforma deve funcionar nos principais navegadores, como Google Chrome, Microsoft Edge e Mozilla Firefox. |
+| RNF06 | Manutenibilidade | O código deve ser organizado em componentes e arquivos que facilitem futuras correções e melhorias. |
+| RNF07 | Consistência visual | As páginas devem manter padrões de cores, tipografia, espaçamento, botões e elementos visuais. |
+| RNF08 | Facilidade de aprendizagem | As funcionalidades devem ser compreensíveis para estudantes com diferentes níveis de familiaridade com a tecnologia. |
+| RNF09 | Escalabilidade | A estrutura deve permitir a inclusão futura de novas disciplinas, conteúdos e funcionalidades sem exigir a reconstrução completa da plataforma. |
+| RNF10 | Organização dos conteúdos | Os conteúdos educacionais devem ser apresentados de maneira organizada, facilitando a leitura e a navegação dos estudantes. |
+
 - RNF01 — Responsividade Básica: A interface da aplicação deve utilizar um framework de estilos utilitários (como Tailwind CSS ou Flexbox/Grid nativo) para garantir boa visualização e usabilidade em telas de computadores e dispositivos móveis.
 
 - RNF02 — Escolha de Framework Front-end: A aplicação deve ser desenvolvida obrigatoriamente utilizando um framework moderno de mercado de livre escolha da equipe (como React, Vue, Next.js ou Angular).
