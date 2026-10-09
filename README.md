@@ -222,7 +222,9 @@ Vercel | React | Typescript | Stitch | Gemini| ChatGPT
 - React
 
 ## Como Executar 
-- npm intall
+- git clone https://github.com/TuannyThomazelli/Hackathon.git
+- cd Hackathon
+- npm install
 - npm run dev
 
 ## Protótipo 
