@@ -6,12 +6,13 @@
 Garantir o acesso à educação inclusiva, de qualidade e equitativa, e promover oportunidades de aprendizagem ao longo da vida para todos.
 
 ## Problema
-
+A plaforma oferece aulas gratuitas de português e matemática de ensino básico gratuito, ajudando pessoas que têm pouco ou que não tiveram acesso à educação básica.
 
 ## Público-alvo
 A plataforma têm como público-alvo estudantes do Ensino básico brasileiro com acesso à internet, especialmente da faixa etária entre 6 a 12 anos, mas acessível para públicos de todas as idades
 
 ## Proposta de Valor
+O ensino básico configura um pilar fundamental do desenvolvimento da sociedade. A plataforma propõe democratizar o acesso a educação básica de matemática e português com ensino gratuito e de qualidade.
 
 ## Benchmarking
 
